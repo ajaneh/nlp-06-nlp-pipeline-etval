@@ -1,23 +1,24 @@
 # nlp-06-nlp-pipeline
 
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](pyproject.toml)
-[![CI](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
-[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://denisecase.github.io/nlp-06-nlp-pipeline/)
-
+[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://ajaneh.github.io/nlp-06-nlp-pipeline-etval/)
 [![uv managed](https://img.shields.io/badge/uv-managed-DE5FE9)](https://docs.astral.sh/uv/)
 [![ty type checked](https://img.shields.io/badge/ty-type_checked-2F80ED)](https://docs.astral.sh/ty/)
 [![Zensical docs](https://img.shields.io/badge/Zensical-docs-purple)](https://zensical.org/)
 [![MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![Check Links](https://github.com/ajaneh/nlp-06-nlp-pipeline-etval/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/ajaneh/nlp-06-nlp-pipeline-etval/actions/workflows/links.yml)
 
 > Build a reproducible NLP pipeline for acquiring, processing, and analyzing web text.
 
 ## Project Overview
 
-Author: Denise Case
+Author: Alex Heyert
 
-Date: 2026 October
+Date: 2026 November
 
 Sixth project in the Web Mining and Applied NLP course.
+
+TODO: Replace this summary with my own
 
 This project introduces a complete natural language
 processing pipeline for working with web documents.
@@ -50,6 +51,7 @@ The project is configured in
 
 The example retrieves an academic paper's abstract page
 from [arXiv](https://arxiv.org/abs/2602.20021).
+TODO: update article and this link.
 
 The source document contains:
 
@@ -67,6 +69,7 @@ with derived NLP features.
 
 ## Approach
 
+TODO: VERIFY THAT THE APPROACH STAYS THE SAME
 The project uses a modular Python pipeline
 to acquire, validate, transform, analyze,
 and save web document data.
@@ -86,6 +89,7 @@ Pandas for tabular data,
 and Matplotlib and WordCloud for visualization.
 
 The Transform stage demonstrates:
+TODO: UPDATE THIS WHEN CHANGED
 
 - Tokenization and text normalization.
 - Punctuation and stopword removal.
@@ -95,27 +99,13 @@ The Transform stage demonstrates:
 - Type-token ratios.
 - Author counts.
 
-Explore these important project components:
-
-- [pyproject.toml](pyproject.toml) - project identity, dependencies, and tool configuration.
-- [src/nlp/pipeline_web_html.py](src/nlp/pipeline_web_html.py) - main EVTAL pipeline orchestrator.
-- [src/nlp/config.py](src/nlp/config.py) - example web page and path configuration.
-- [src/nlp/stage01_extract.py](src/nlp/stage01_extract.py) - retrieve HTML.
-- [src/nlp/stage02_validate.py](src/nlp/stage02_validate.py) - validate HTML structure.
-- [src/nlp/stage03_transform.py](src/nlp/stage03_transform.py) - clean text and engineer NLP features.
-- [src/nlp/stage04_analyze.py](src/nlp/stage04_analyze.py) - analyze token frequencies and generate visualizations.
-- [src/nlp/stage05_load.py](src/nlp/stage05_load.py) - save processed results.
-- [tests/](tests/) - automated tests.
-- [.github/workflows/](.github/workflows/) - automated testing and documentation deployment.
-- [docs/](docs/) - project documentation.
-- [zensical.toml](zensical.toml) - documentation configuration.
-
 The goal is to understand how an NLP pipeline
 transforms raw web content into structured,
 analysis-ready data with interpretable features.
 
 ## spaCy Pipeline
 
+TODO: Summarize use of spaCy
 The project uses [spaCy](https://spacy.io/)
 for tokenization and for flagging
 stopwords and punctuation.
@@ -150,6 +140,7 @@ uv run python -m nlp.pipeline_web_html
 
 ## Results
 
+TODO: UPDATE
 The pipeline retrieves an HTML document,
 validates its structure,
 extracts bibliographic information,
@@ -168,6 +159,8 @@ Pipeline executed successfully!
 ```
 
 The following files are created:
+
+TODO: update
 
 - `project.log` - pipeline execution log.
 - `data/raw/case_raw.html` - original HTML document.
@@ -195,7 +188,7 @@ uv run python -m pytest
 
 ## Project Documentation
 
-The [hosted documentation site](https://denisecase.github.io/nlp-06-nlp-pipeline/)
+The [hosted documentation site](https://ajaneh.github.io/nlp-06-nlp-pipeline-evtal/)
 is published using Zensical and GitHub Pages.
 
 The documentation site is used to present the project report,
@@ -213,8 +206,8 @@ to check project files and publish the docs.
 
 GitHub Actions include:
 
-- [CI: Python and Documentation Checks](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/ci-python-zensical.yml)
-- [CD: Documentation Deployment](https://github.com/denisecase/nlp-06-nlp-pipeline/actions/workflows/deploy-zensical.yml)
+- [CI: Python and Documentation Checks](https://github.com/ajaneh/nlp-06-nlp-pipeline-etval/actions/workflows/ci-python-zensical.yml)
+- [CD: Documentation Deployment](https://github.com/ajaneh/nlp-06-nlp-pipeline-etval/actions/workflows/deploy-zensical.yml)
 
 ## Developer Reference
 
@@ -303,3 +296,18 @@ testing, documentation, and code quality.
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)
+
+Explore these important project components:
+
+- [pyproject.toml](pyproject.toml) - project identity, dependencies, and tool configuration.
+- [src/nlp/pipeline_web_html.py](src/nlp/pipeline_web_html.py) - main EVTAL pipeline orchestrator.
+- [src/nlp/config.py](src/nlp/config.py) - example web page and path configuration.
+- [src/nlp/stage01_extract.py](src/nlp/stage01_extract.py) - retrieve HTML.
+- [src/nlp/stage02_validate.py](src/nlp/stage02_validate.py) - validate HTML structure.
+- [src/nlp/stage03_transform.py](src/nlp/stage03_transform.py) - clean text and engineer NLP features.
+- [src/nlp/stage04_analyze.py](src/nlp/stage04_analyze.py) - analyze token frequencies and generate visualizations.
+- [src/nlp/stage05_load.py](src/nlp/stage05_load.py) - save processed results.
+- [tests/](tests/) - automated tests.
+- [.github/workflows/](.github/workflows/) - automated testing and documentation deployment.
+- [docs/](docs/) - project documentation.
+- [zensical.toml](zensical.toml) - documentation configuration.
