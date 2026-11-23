@@ -1,6 +1,6 @@
 # Web Mining and Applied NLP Project Report
 
-Web Mining and Applied NLP | Project 06 | Example Report
+Web Mining and Applied NLP | Project 06 | Alex Heyert | 2026 November
 
 ## Overview
 
@@ -111,19 +111,16 @@ additional approaches to language understanding.
 - **Home** - this landing page
 - [**Project Instructions**](project-instructions.md)
 - [**Glossary**](glossary.md)
-- [**NLP Evolution**](nlp-evolution.md)
 
 ## Project Links
 
-- [GitHub Repository](https://github.com/denisecase/nlp-06-nlp-pipeline)
-- [Example Pipeline](https://github.com/denisecase/nlp-06-nlp-pipeline/blob/main/src/nlp/pipeline_web_html.py)
-- [Example Configuration](https://github.com/denisecase/nlp-06-nlp-pipeline/blob/main/src/nlp/config.py)
-- [Transform Stage](https://github.com/denisecase/nlp-06-nlp-pipeline/blob/main/src/nlp/stage03_transform.py)
-- [Analyze Stage](https://github.com/denisecase/nlp-06-nlp-pipeline/blob/main/src/nlp/stage04_analyze.py)
+- [GitHub Repository](https://github.com/ajaneh/nlp-06-nlp-pipeline-etvl)
+- [Example Pipeline](https://github.com/ajaneh/nlp-06-nlp-pipeline-etvl/blob/main/src/nlp/pipeline_web_html.py)
+- [Example Configuration](https://github.com/ajaneh/nlp-06-nlp-pipeline-etvl/blob/main/src/custom_nlp/config.py)
+- [Transform Stage](https://github.com/ajaneh/nlp-06-nlp-pipeline-etvl/blob/main/src/custom_nlp/stage03_transform.py)
+- [Analyze Stage](https://github.com/ajaneh/nlp-06-nlp-pipeline-etvl/blob/main/src/custom_nlp/stage04_analyze.py)
 
 ## Project Resources
 
 - [Project Instructions](project-instructions.md)
-- [NLP Evolution](nlp-evolution.md)
 - [Professional Python Guide](https://denisecase.github.io/pro-analytics-02/)
-- [Professional Python Project Explainer](https://pup-pack.github.io/professional-python-project-explainer/)
