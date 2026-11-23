@@ -188,16 +188,12 @@ uv run python -m pytest
 
 ## Project Documentation
 
-The [hosted documentation site](https://ajaneh.github.io/nlp-06-nlp-pipeline-evtal/)
+The [hosted documentation site](https://ajaneh.github.io/nlp-06-nlp-pipeline-etval/)
 is published using Zensical and GitHub Pages.
 
 The documentation site is used to present the project report,
 covering such sections as data, methods, results, visualizations,
 interpretation, and conclusions.
-
-For additional context about traditional NLP
-and modern language-model approaches,
-see [NLP Evolution](docs/nlp-evolution.md).
 
 ## CI/CD and GitHub Actions
 

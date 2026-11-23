@@ -114,4 +114,5 @@ exclude_path = [
   "ALL-PY-SRC",
   "ALL-COURSE",
   "ALL-COURSE-PY-SRC",
+  "data/raw", # WHY: Raw fetched artifacts may contain third-party links outside project control.
 ]

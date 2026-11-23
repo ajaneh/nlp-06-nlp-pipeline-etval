@@ -97,7 +97,7 @@ requires = ["hatchling"]
 
 [tool.hatch.build.targets.wheel]
 # CUSTOM: Adjust as needed to match the actual package directory under src/.
-packages = ["src/nlp"]
+packages = ["src/nlp", "src/custom_nlp"]
 
 
 [tool.uv.sources]
